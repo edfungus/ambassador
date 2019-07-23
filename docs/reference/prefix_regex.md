@@ -13,7 +13,7 @@ If the version is a path parameter and the resources are served by different ser
 apiVersion: ambassador/v1
 kind:  Mapping
 name:  qotm_mapping
-prefix: "/(v1|v2)/qotm/.*"
+prefix: "\/(v1|v2)\/qotm\/.*"
 prefix_regex: true
 service: qotm
 ```
